@@ -3,11 +3,11 @@
 ## Source: https://github.com/hexojs/hexo/
 
 # Site
-title: Hexo
+title: iCrazyMage' Blog
 subtitle:
 description:
-author: John Doe
-language: zh-Hans
+author: iCrazyMage
+language: zh-CN
 timezone:
 
 # URL
@@ -45,8 +45,8 @@ highlight:
 
 # Category & Tag
 default_category: uncategorized
-category_map:
-tag_map:
+category_map: GitHub
+tag_map: git
 
 # Date / Time format
 ## Hexo uses Moment.js to parse and display date
@@ -63,10 +63,11 @@ pagination_dir: page
 # Extensions
 ## Plugins: https://hexo.io/plugins/
 ## Themes: https://hexo.io/themes/
-theme: next
+theme: material 
 
 # Deployment
 ## Docs: https://hexo.io/docs/deployment.html
 deploy:
   type: git
   repo: https://github.com/iCrazyTeam/iBlog
+  branch: master
