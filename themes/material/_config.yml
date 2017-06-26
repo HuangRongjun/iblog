@@ -33,7 +33,9 @@ scheme: Paradox
 
 # UI & UX: slogan, color, effect
 uiux:
-    slogan: "Hi, nice to meet you"
+    slogan: 
+        - "日拱一卒"
+        - "不期速成"
     theme_color: "#0097A7"
     theme_sub_color: "#00838F"
     hyperlink_color: "#00838F"
@@ -45,7 +47,7 @@ uiux:
 # JS Effect Switches
 js_effect:
     fade: true
-    smoothscroll: false
+    smoothscroll: true
 
 # Reading experience
 reading:
@@ -90,7 +92,7 @@ fonts:
     custom_font_host:
 
 # Card Elevation Level
-card_elevation: 2
+card_elevation: 3
 
 # Copyright
 # Specify the date when the site was setup.
@@ -147,34 +149,34 @@ sns_share:
 sidebar:
     dropdown:
         Email Me:
-            link: "#"
+            link: "mailto:l1091462907@163.com"
             icon: email
     homepage:
         use: true
         icon: home
-        divider: false
+        divider: true
     archives:
         use: true
         icon: inbox
-        divider: false
+        divider: true
     categories:
-        use: false
+        use: true
         icon: chrome_reader_mode
-        divider: false
+        divider: true
     pages:
-        About: 
+        关于: 
             link: "/about"
             icon: person
-            divider: false
+            divider: true
     article_num:
         use: true
         divider: false
     footer:
         divider: true
         theme: true
-        support: false
-        feedback: false
-        material: false
+        support: true
+        feedback: true
+        material: true
 
 
 # ---------------------------------------------------------------
