@@ -69,5 +69,5 @@ theme: material
 ## Docs: https://hexo.io/docs/deployment.html
 deploy:
   type: git
-  repo: https://github.com/iCrazyTeam/iBlog
+  repo: https://github.com/iCrazyTeam/iCrazyTeam.github.io
   branch: master
