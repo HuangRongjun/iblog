@@ -131,7 +131,7 @@ sns:
     tumblr:
     github: "https://github.com/HuangRongjun"
     linkedin:
-    zhihu:
+    zhihu: "https://www.zhihu.com/people/iCrazyMage/activities"
     bilibili:
     telegram:
 
@@ -166,6 +166,18 @@ sidebar:
     pages:
         关于: 
             link: "/about"
+            icon: person
+            divider: true
+        画廊:  
+            link: "/gallery"
+            icon: person
+            divider: true
+        友链: 
+            link: "/links"
+            icon: person
+            divider: true
+        标签云: 
+            link: "/target"
             icon: person
             divider: true
     article_num:
