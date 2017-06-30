@@ -1,6 +1,10 @@
 ---
 title: Commit message format
-categories: git
+categories: Git
+comments: true
+tags: 
+    - Git
+    - GitHub
 ---
 
 ## 1. Title (Header)
