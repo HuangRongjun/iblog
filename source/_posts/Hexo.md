@@ -1,0 +1,54 @@
+---
+title: Hexo 常用命令说明
+categories: Hexo
+comments: true
+tags: 
+    - Hexo
+    - Node.js
+---
+
+## 1、安装说明
+在IBlog目录下打开 Git Bash ，依次执行以下命令
+
+> 安装
+
+    npm install hexo-cli -g
+
+> 升级  
+
+    npm update hexo -g 
+
+> 初始化
+
+    hexo init iBlog
+
+    cd iBlog
+
+    npm install
+
+## 2、简写说明
+>新建
+ 
+    hexo n <title> == hexo new <title>
+    
+> 草稿
+
+    hexo p <filename> == hexo publish <filename>
+    
+>生成
+
+    hexo g == hexo generate
+    
+>部署
+
+    hexo d == hexo deploy
+
+>启动服务预览
+
+    hexo s == hexo server 
+
+    hexo s --debug
+    
+
+
+
