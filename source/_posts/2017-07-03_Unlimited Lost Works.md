@@ -1,5 +1,5 @@
 ---
-title: 无限剑制
+title: Unlimited Lost Works
 categories: 动漫
 comments: true
 ---
