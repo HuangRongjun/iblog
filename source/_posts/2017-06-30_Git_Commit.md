@@ -13,13 +13,16 @@ tags:
 
 `type` 用于说明 commit 的类别，仅允许使用以下规定的标识
 
-> feature： New feature 新功能
- fix： Fix bug 修补 bug
- docs： Documentation 文档
- format： Format 格式（不影响代码运行的变动）
- refactor： Refactor 重构（即不是新增功能，也不是修改 bug 的代码变动）
- test： Test 增加测试
- chore： 构建过程或辅助工具的变动
+ 序 | 名称 | 备注
+ --- | --- | --- 
+ 1 | feature | 增加新功能
+ 2 | fix | 修复bug
+ 3 | docs | 增加文档说明
+ 4 | format | 格式化代码
+ 5 | refactor | 重构代码
+ 6 | style | 修改样式
+ 7 | test | 增加测试
+ 8 | chore | 构建过程或辅助工具的变动
 
 **（2）scope**
 
