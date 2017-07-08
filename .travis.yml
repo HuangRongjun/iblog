@@ -6,7 +6,7 @@ install:
   - npm install
 
 
-#before_script:
+# before_script:
  # - npm install -g gulp
 
 script:
@@ -24,7 +24,7 @@ after_script:
 
 branches:
   only:
-    - blog-source
+    - master
 env:
  global:
-   - GH_REF: git@github.com:iCrazyTeam/iCrazyTeam.github.io.git
+   - GH_REF: git@github.com:iCrazyTeam/iBlog.git
