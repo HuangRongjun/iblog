@@ -7,3 +7,19 @@ install:
 script:
   - hexo clean
   - hexo g -d
+
+after_script:
+  - cd ./public
+  - git init
+  - git config user.name "黄荣君"
+  - git config user.email "l1091462907@gmail.com"
+  - git add .
+  - git commit -m " Site updated"
+  - git push --force --quiet "https://${GH_TOKEN}@${GH_REF}" master:master
+
+branches:
+  only:
+    - master
+env:
+ global:
+   - GH_REF: git@github.com:iCrazyTeam/iCrazyTeam.github.io.git
