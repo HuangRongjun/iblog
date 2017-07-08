@@ -4,11 +4,7 @@ node_js: stable
 install:
   - npm install
 
-script:
-  - hexo g
-  - hexo d
-
-after_script:
+before_script:
   - cd ./public
   - git init
   - git config user.name "黄荣君"
@@ -16,6 +12,10 @@ after_script:
   - git add .
   - git commit -m " Site updated"
   - git push --force --quiet "https://${GH_TOKEN}@${GH_REF}" master:master
+
+script:
+  - hexo g
+  - hexo d
 
 branches:
   only:
