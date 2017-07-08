@@ -6,16 +6,14 @@ install:
 
 script:
   - hexo g
-  - hexo d
 
 after_script:
   - cd ./public
   - git init
   - git config user.name "黄荣君"
   - git config user.email "l1091462907@gmail.com"
-  - git add .
-  - git commit -m " Site updated"
   - git push --force --quiet "https://${GH_TOKEN}@${GH_REF}" master:master
+  - hexo d
 
 branches:
   only:
