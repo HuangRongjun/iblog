@@ -180,6 +180,10 @@ sidebar:
             link: "/target"
             icon: person
             divider: true
+        时间轴: 
+            link: "/timeline"
+            icon: person
+            divider: true
     article_num:
         use: true
         divider: false

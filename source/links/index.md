@@ -1,5 +1,7 @@
 ---
 title: links
+date:
+layout: links
 ---
 
 >昵称：某猫
