@@ -1,23 +1,18 @@
 language: node_js
 node_js: stable
-
 install:
-  - npm install
-
-script:
-  - hexo g
-
-after_script:
-  - cd ./public
-  - git init
-  - git config user.name "黄荣君"
-  - git config user.email "l1091462907@gmail.com"
-  - git push --force --quiet "https://${GH_TOKEN}@${GH_REF}" master:master
-  - hexo d
-
+- npm install
 branches:
   only:
-    - master
+  - master
+script:
+- hexo cl
+- hexo g
+after_success:
+- git config user.name "黄荣君"
+- git config user.email "l1091462907@gmail.com"
+- sed -i'' "/^ *repo/s~github\.com~${GH_TOKEN}@github.com~" _config.yml
+- hexo d
 env:
- global:
-   - GH_REF: https://github.com/iCrazyTeam/iCrazyTeam.github.io.git
+  global:
+  - secure: ivrXD/0coKFewBCiBhqgxiT/mWe4P3yjetIITtIkYamGXWgv/3a4j8M0JmxwmGOs6y56udGQCduMJuqNYbSZC2kdM2wo6HavVErMfSJwy+GQ2/AbsN9AZhDLSt5llr2rEFkmoOem/kDMOrH1KYn5Tbgg62HH/D8zeKhcSRIrmmqXo0GPkBIF8M9h0f8lroGeL+blVB7xZan/ChT5+yWdRpaw4WtQZERGIVOXlzyqYDoOm7O9isD03Wa64t+5wBaTRmry0RPom7PHadXdtZAHlJ7xyquhRrGw5RV+IOLrKp+Lfrtryo1lvZyG8uJNLq895Z+I01X/EJtpKYRXa8dx1QJeULe/BVKspMmniMbw5IZKCjshQWrgAk1aEP9r+SqibE05CENKrxG0FBcOxVJ4mfl8Myw4xP5qLAmvuQIpdog8GbckaBhis4e+TZackUE3koTpl/YyZzMwPi3di6jKkroYs9wc353HlhD9dRDJ2ItLJbJoLv5J608VtqI5LaXOr3EzBK8ZUewI4meiDS8Lqu0yAKqaD4+e6BWPX5sZem+ag0rKEiq5mT+WqfStYa85E0dVysX9Co9Llz+XHqNJ/f+hlhC96RT8gaJLZiK8w3Qa7AcBHS3AprFRWr8+UGuHHDNs6Nvrc8qKj/8s3ODYTtC5/AKppANfcj3r4UIHQA4=
