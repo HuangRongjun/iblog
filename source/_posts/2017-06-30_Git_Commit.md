@@ -1,6 +1,7 @@
 ---
 title: Commit message format
 categories: Git
+date: 2017-06-30 09:12:05
 comments: true
 tags: 
     - Git
