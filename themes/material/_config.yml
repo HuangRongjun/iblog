@@ -186,10 +186,10 @@ sidebar:
             icon: person
             divider: true
     article_num:
-        use: true
+        use: false
         divider: false
     footer:
-        divider: true
+        divider: false
         theme: false
         support: true
         feedback: true
