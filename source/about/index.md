@@ -14,9 +14,6 @@ title: About Me
 很高兴我们在茫茫网海中相遇
 希望此刻你一展笑颜
 
-# 追求
-喜欢自由自在，自己的东西自己保管，拥有自主的管理权限，不喜欢被平台束缚和限制
-
 # Get Me
 GitHub：[iCrazyMage](https://github.com/HuangRongjun)
 网易云：[iCrazyMage](http://music.163.com/#/user/home?id=658124)
