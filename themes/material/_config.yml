@@ -167,15 +167,15 @@ sidebar:
     pages:
         画廊:  
             link: "/gallery"
-            icon: person
+            icon: image
             divider: true
         标签: 
             link: "/target"
-            icon: person
+            icon: local_offer
             divider: true
         时间: 
             link: "/timeline"
-            icon: person
+            icon: merge_type
             divider: true
         关于: 
             link: "/about"
@@ -183,7 +183,7 @@ sidebar:
             divider: true
         友链: 
             link: "/links"
-            icon: person
+            icon: link
             divider: true
     article_num:
         use: false
