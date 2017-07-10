@@ -28,6 +28,7 @@ url:
 # ---------------------------------------------------------------
 
 # Schemes
+# scheme: Nexus
 scheme: Paradox
 #scheme: Isolation
 
