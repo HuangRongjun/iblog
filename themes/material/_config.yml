@@ -165,24 +165,24 @@ sidebar:
         icon: chrome_reader_mode
         divider: true
     pages:
-        关于: 
-            link: "/about"
-            icon: person
-            divider: true
         画廊:  
             link: "/gallery"
             icon: person
             divider: true
-        友链: 
-            link: "/links"
-            icon: person
-            divider: true
-        标签云: 
+        标签: 
             link: "/target"
             icon: person
             divider: true
-        时间轴: 
+        时间: 
             link: "/timeline"
+            icon: person
+            divider: true
+        关于: 
+            link: "/about"
+            icon: person
+            divider: true
+        友链: 
+            link: "/links"
             icon: person
             divider: true
     article_num:
