@@ -1,8 +1,11 @@
 ---
-title: About Me
+title: About
+date: 2017-06-29 21:12:25
 ---
 
-# About Me
+About Me
+---
+
 > 一位严重的强迫症患者
 对代码规范性异常固执
 我酷爱编程
@@ -14,6 +17,23 @@ title: About Me
 很高兴我们在茫茫网海中相遇
 希望此刻你一展笑颜
 
-# Get Me
+Follow Me
+---
+
 GitHub：[iCrazyMage](https://github.com/HuangRongjun)
+
 网易云：[iCrazyMage](http://music.163.com/#/user/home?id=658124)
+
+About Blog
+---
+
+1、读写分离
+
+> 源文件仓库 [i-blog](https://github.com/HuangRongjun/i-blog)
+> 展示仓库 [HuangRongjun.github.io](https://github.com/HuangRongjun/HuangRongjun.github.io) 
+
+2、[Travis CI](https://travis-ci.org) 自动构建和发布
+3、[阿里云](https://www.aliyun.com) 购买域名
+4、[CloudFare](https://www.cloudflare.com) 域名解析 和 CDN 加速
+
+> 客户端单向访问是 HTTPS，CloudFare 到 [GitHub Pages](https://pages.github.com) 是HTTP连接
