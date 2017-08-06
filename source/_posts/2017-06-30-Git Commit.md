@@ -1,11 +1,12 @@
 ---
-title: Commit message format
-categories: Git
+layout: hexo
+title: Git Commit
 date: 2017-06-30 09:12:05
-comments: true
+categories: 技术
 tags: 
     - Git
     - GitHub
+comments: true
 ---
 
 ## 1. Title (Header)
