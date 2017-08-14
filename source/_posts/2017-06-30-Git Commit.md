@@ -2,7 +2,7 @@
 layout: hexo
 title: Git Commit
 date: 2017-06-30 09:12:05
-thumbnail: http://ou3oxfb2i.bkt.clouddn.com/thumbnail2017-06-30.png
+thumbnail: https://ilovelan.oss-cn-shenzhen.aliyuncs.com/i-blog/thumbnail/2017/2017-06-30.png
 categories: 技术
 tags: 
     - Git

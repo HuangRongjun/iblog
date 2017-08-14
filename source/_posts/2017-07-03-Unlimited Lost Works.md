@@ -2,7 +2,7 @@
 layout: hexo
 title: Unlimited Lost Works
 date: 2017-07-03 21:12:25
-thumbnail: http://ou3oxfb2i.bkt.clouddn.com/thumbnail2017-07-03.png
+thumbnail: http://ilovelan.oss-cn-shenzhen.aliyuncs.com/i-blog/thumbnail/2017/2017-07-03.png
 categories: 动漫
 tags:
     - Anime
