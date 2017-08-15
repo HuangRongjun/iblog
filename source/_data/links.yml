@@ -13,11 +13,6 @@ Viosey:
     avatar: https://moumao.moumaobuchiyu.com/images/header.jpg
     descr: 欢迎来到我的小窝
 
-Litten:
-    link: http://litten.me
-    avatar: http://litten.me/assets/blogImg/litten.png
-    descr: 胆小认生，不易相处
-
 创造师:
     link: http://chuangzaoshi.com
     avatar: https://qiniu.viosey.com/img/blog/favatar/chuangzaoshi.png
@@ -32,8 +27,3 @@ Litten:
     link: https://blog.jimmylv.info
     avatar: https://o7mw3gkkh.qnssl.com/blog/public/img/gavatar.jpg
     descr: 未知的可能性,追随我心
-
-山不转水转:
-    link: http://geeksblog.cc
-    avatar: http://geeksblog.cc/img/avatar.png 
-    descr: 不想成为架构师的程序员不是一个好程序员
