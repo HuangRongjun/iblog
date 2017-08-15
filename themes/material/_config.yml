@@ -165,7 +165,7 @@ sidebar:
         icon: chrome_reader_mode
         divider: true
     pages:
-        画廊:  
+        画廊: 
             link: "/gallery"
             icon: image
             divider: true
