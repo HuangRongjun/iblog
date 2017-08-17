@@ -169,21 +169,17 @@ sidebar:
             link: "/target"
             icon: local_offer
             divider: true
-        画廊: 
+        映像: 
             link: "/gallery"
             icon: image
             divider: true
-        时间: 
-            link: "/timeline"
-            icon: merge_type
+        友链: 
+            link: "/links"
+            icon: people
             divider: true
         关于: 
             link: "/about"
             icon: person
-            divider: true
-        友链: 
-            link: "/links"
-            icon: link
             divider: true
     article_num:
         use: false
