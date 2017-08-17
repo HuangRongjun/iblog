@@ -182,8 +182,8 @@ sidebar:
             icon: person
             divider: true
     article_num:
-        use: false
-        divider: false
+        use: true
+        divider: true
     footer:
         divider: false
         theme: false
