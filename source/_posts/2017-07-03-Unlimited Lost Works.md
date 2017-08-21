@@ -13,8 +13,8 @@ comments: true
 
 # Archer
 
-英文版
----
+## 英文版
+
 > I am the bone of my sword
 
     吾为所持剑之骨
@@ -47,8 +47,7 @@ comments: true
 
     故如我祈求，无限之剑制
 
-日文版
----
+## 日文版
 
 > 体は剣で出来ている
 
@@ -86,8 +85,7 @@ comments: true
 
 # 卫宫士郎
 
-英文版
----
+## 英文版
 
 > I am the bone of my sword
 
@@ -121,8 +119,7 @@ comments: true
 
     此生即为“无限剑制”
 
-日文版
----
+## 日文版
 
 > 体は剣で出来ている
 
