@@ -80,7 +80,7 @@ example.com的证书将不能用于www.example.com
 
 证书可以用于多个网站
     
-用于www.example.com证书也可用于www.example.cn、www.example2.com等
+用于www.example.com证书也可用于www.example.cn、www.example2.com 等
 
 **通配符SSL**
 
@@ -128,7 +128,7 @@ CA厂商会提供证书的安装教程，所使用的Web服务器不同，安装
 
 1.打开服务器的 `server.xml` 文件
 
-> <Connector port="443" protocol="org.apache.coyote.http11.Http11NioProtocol"
+    <Connector port="443" protocol="org.apache.coyote.http11.Http11NioProtocol"
             maxThreads="150" SSLEnabled="true" scheme="https" secure="true"
             keystoreFile="C:\i-cert\214181760910328.pfx"
             keystoreType="PKCS12"
@@ -139,15 +139,15 @@ CA厂商会提供证书的安装教程，所使用的Web服务器不同，安装
 
 把http的请求强制转到https
 
-> <security-constraint>
-    <web-resource-collection >
+    <security-constraint>
+        <web-resource-collection >
             <web-resource-name>SSL</web-resource-name>
             <url-pattern>/*</url-pattern>
-    </web-resource-collection>                             
-    <user-data-constraint>
-        <transport-guarantee>CONFIDENTIAL</transport-guarantee>
-    </user-data-constraint>
-</security-constraint>
+        </web-resource-collection>                             
+        <user-data-constraint>
+            <transport-guarantee>CONFIDENTIAL</transport-guarantee>
+        </user-data-constraint>
+    </security-constraint>
 
 # 注意事项
 
