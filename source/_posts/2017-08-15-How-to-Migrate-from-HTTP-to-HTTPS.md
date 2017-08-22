@@ -2,7 +2,7 @@
 layout: hexo
 title: How to Migrate from HTTP to HTTPS
 date: 2017-08-15 16:02:25
-thumbnail: https://example.oss-cn-shenzhen.aliyuncs.com/i-blog/thumbnail/2017/2017-08-15.png
+thumbnail: https://ilovelan.oss-cn-shenzhen.aliyuncs.com/i-blog/thumbnail/2017/2017-08-15.png
 categories: 技术
 tags: 
     - SSL
@@ -98,19 +98,20 @@ CA厂商会提供证书的安装教程，所使用的Web服务器不同，安装
 
 1. 修改配置文件一般是通过修改全局配置文件实现，全局配置文件通常位于 `/ect/nginx/nginx.conf`
 2. 如果服务器允许多个站点，推荐通过修改站点的配置来实现，站点的配置文件一般位于目录 `/etc/nginx/conf.d/`
-3. 打开自定义的配置文件 `vi sever.conf`
-在 `server` 节点，监听 `443` 端口
+3. 打开自定义的配置文件 `vi sever.conf`，在 `server` 节点，监听 `443` 端口
 
+```
     server {
-        listen 443 ssl;
-        server_name example.com;
-        ssl on;
-        ssl_certificate cert/214181760910328.pem;
-        ssl_certificate_key cert/214181760910328.key;
-        ssl_session_timeout 5m;
-        keepalive_timeout 90;
-        ssl_prefer_server_ciphers on;
+            listen 443 ssl;
+            server_name example.com;
+            ssl on;
+            ssl_certificate cert/214181760910328.pem;
+            ssl_certificate_key cert/214181760910328.key;
+            ssl_session_timeout 5m;
+            keepalive_timeout 90;
+            ssl_prefer_server_ciphers on;
     }
+```
 
 把http的请求强制转到https
 
@@ -120,34 +121,40 @@ CA厂商会提供证书的安装教程，所使用的Web服务器不同，安装
         rewrite ^(.*) https://example.com$1 permanent;
     }
 
-4. 重启nginx服务
+然后重启nginx服务
 
-    nginx -s reload 
+```
+nginx -s reload
+```
 
 ## eclipse + tomcat
 
 1.打开服务器的 `server.xml` 文件
 
-    <Connector port="443" protocol="org.apache.coyote.http11.Http11NioProtocol"
-            maxThreads="150" SSLEnabled="true" scheme="https" secure="true"
-            keystoreFile="C:\i-cert\214181760910328.pfx"
-            keystoreType="PKCS12"
-            keystorePass="214181760910328"
-            clientAuth="false" sslProtocol="TLS" />
+```
+<Connector port="443" protocol="org.apache.coyote.http11.Http11NioProtocol"
+    maxThreads="150" SSLEnabled="true" scheme="https" secure="true"
+    keystoreFile="C:\i-cert\214181760910328.pfx"
+    keystoreType="PKCS12"
+    keystorePass="214181760910328"
+    clientAuth="false" sslProtocol="TLS" />
+```
 
 2.在服务器 `web.xml` 文件结尾添加
 
 把http的请求强制转到https
 
-    <security-constraint>
-        <web-resource-collection >
-            <web-resource-name>SSL</web-resource-name>
-            <url-pattern>/*</url-pattern>
-        </web-resource-collection>                             
-        <user-data-constraint>
-            <transport-guarantee>CONFIDENTIAL</transport-guarantee>
-        </user-data-constraint>
-    </security-constraint>
+```
+<security-constraint>
+    <web-resource-collection >
+        <web-resource-name>SSL</web-resource-name>
+        <url-pattern>/*</url-pattern>
+    </web-resource-collection>                             
+    <user-data-constraint>
+        <transport-guarantee>CONFIDENTIAL</transport-guarantee>
+    </user-data-constraint>
+</security-constraint>
+```
 
 # 注意事项
 
@@ -171,7 +178,9 @@ CA厂商会提供证书的安装教程，所使用的Web服务器不同，安装
 
 以下例子摘自[Wiki](https://en.wikipedia.org/wiki/HTTP_Strict_Transport_Security)
 
-    Strict-Transport-Security: max-age=31536000; includeSubDomains
+```
+Strict-Transport-Security: max-age=31536000; includeSubDomains
+```
 
 上面这段头信息有两个作用
 
@@ -189,4 +198,6 @@ CA厂商会提供证书的安装教程，所使用的Web服务器不同，安装
 
 网站响应头里面，Set-Cookie字段加上Secure标志即可。
 
+```
     Set-Cookie: value[; expires=date][; domain=domain][; path=path][; secure]
+```
