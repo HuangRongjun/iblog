@@ -3,8 +3,10 @@ layout: hexo
 title: Git Cheat Sheet
 date: 2017-09-05 21:47:13
 thumbnail:
-categories:
+categories: 技术
 tags:
+    - Git
+    - GitHub
 comments:
 ---
 
