@@ -157,7 +157,7 @@ sidebar:
         icon: home
         divider: true
     archives:
-        use: false
+        use: true
         icon: inbox
         divider: true
     categories:
