@@ -124,7 +124,7 @@ GitHub Desktop for Mac
 
     git mv [file-original] [file-renamed]
 
-停止
+忽略
 ---
 
 > 不包含临时文件和路径
