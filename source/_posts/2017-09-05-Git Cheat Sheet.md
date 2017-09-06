@@ -17,15 +17,15 @@ comments:
 
 Git 全平台版
 
-    http://git-scm.com
+    https://git-scm.com
 
 GitHub Desktop for Windows
 
-    http://windows.github.com
+    https://windows.github.com
 
 GitHub Desktop for Mac
 
-    http://mac.github.com
+    https://mac.github.com
 
 配置
 ---
@@ -99,6 +99,10 @@ GitHub Desktop for Mac
 
     git checkout [branch-name]
 
+从当前分支建立一个新的子分支并切换到子分支
+
+    git checkout -b [branch-name]
+
 合并特定分支的历史到当前分支
 
     git merge [branch-name]
@@ -120,7 +124,7 @@ GitHub Desktop for Mac
 
     git rm --cached [file]
 
-改变文件名并准备commitß
+改变文件名并准备commit
 
     git mv [file-original] [file-renamed]
 
