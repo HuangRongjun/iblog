@@ -2,7 +2,7 @@
 layout: hexo
 title: Git Cheat Sheet
 date: 2017-09-05 21:47:13
-thumbnail:
+thumbnail: https://ilovelan.oss-cn-shenzhen.aliyuncs.com/i-blog/thumbnail/2017/2017-09-05.png
 categories: 技术
 tags:
     - Git
