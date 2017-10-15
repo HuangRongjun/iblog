@@ -139,7 +139,7 @@ prettify:
 #                       # If `includeDefaultColors` is true, this will append colors to the color pool
 #                       # If `includeDefaultColors` is false, this will instead default color pool
 hanabi:
-    enable: false
+    enable: true
     line_number: true
     includeDefaultColors: true
     customColors: 
@@ -224,8 +224,8 @@ sidebar:
             icon: person
             divider: true
     article_num:
-        use: true
-        divider: true
+        use: false
+        divider: false
     footer:
         divider: false
         theme: false
@@ -261,7 +261,7 @@ comment:
 # Available value:
 #     swiftype | google | local
 search:
-    use: google
+    use: local
     swiftype_key:
 
 # Analytics Systems
