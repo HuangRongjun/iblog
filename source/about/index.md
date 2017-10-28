@@ -32,7 +32,7 @@ About Blog
 > 源文件仓库 [i-blog](https://github.com/HuangRongjun/i-blog)
 > 展示仓库 [HuangRongjun.github.io](https://github.com/HuangRongjun/HuangRongjun.github.io) 
 
-2、[Travis CI](https://travis-ci.org) 自动构建和发布
+2、[Travis CI](https://travis-ci.org/HuangRongjun/i-blog) 自动构建和发布
 3、[阿里云](https://www.aliyun.com) 购买域名
 4、[CloudFare](https://www.cloudflare.com) 域名解析 和 CDN 加速
 
