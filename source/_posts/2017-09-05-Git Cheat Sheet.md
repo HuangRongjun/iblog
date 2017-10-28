@@ -109,7 +109,11 @@ GitHub Desktop for Mac
 
 删除特定的分支
 
-    git branch -d [branch-name]
+    git branch -D [branch-name]
+
+删除所有含关键字的分支
+
+    git branch | grep 'key' | xargs git branch -D
 
 重构
 ---
