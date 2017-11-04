@@ -19,26 +19,44 @@ Git 全平台版
 
     https://git-scm.com
 
-GitHub Desktop for Windows
+GitHub Desktop
 
-    https://windows.github.com
-
-GitHub Desktop for Mac
-
-    https://mac.github.com
+    https://desktop.github.com
 
 配置
 ---
 
 > 对所有本地仓库的用户信息进行配置
 
-对你的commit操作设置关联的用户名
+对你的 commit 操作设置关联的用户名
 
     git config --global user.name "[name]"
 
-对你的commit操作设置关联的邮箱地址
+对你的 commit 操作设置关联的邮箱地址
 
     git config --global user.email "[email address]"
+
+> 创建 SSH 连接
+
+默认全局
+
+    ssh-keygen -t rsa -C "[your github email]"
+
+指定别名
+
+    ssh-keygen -t rsa -C "[your github email]" -f ~/.ssh/github-rsa
+
+> 更新仓库地址为 SSH 连接
+
+获取远程连接信息
+
+    git remote -v
+
+更新远程 url 
+
+    $ git remote set-url [remote] git@github.com:[your repository].git
+
+> remote 的默认别名是 origin
 
 创建
 ---
@@ -56,9 +74,9 @@ GitHub Desktop for Mac
 更改
 ---
 
-> 检查已有的编辑并执行commit操作
+> 检查已有的编辑并执行 commit 操作
 
-列出所有新建或者更改的文件，这些文件需要被commit
+列出所有新建或者更改的文件，这些文件需要被 commit
 
     git status
 
@@ -80,12 +98,12 @@ GitHub Desktop for Mac
 
 将文件快照永久地记录在版本历史中
 
-    git commit -m"[descriptive message]"
+    git commit -m "[descriptive message]"
 
 分支
 ---
 
-> 命名一系列commit以及合并已完成的工作
+> 分支的常见操作
 
 列出当前仓库中所有的本地分支
 
@@ -113,7 +131,7 @@ GitHub Desktop for Mac
 
 删除所有含关键字的分支
 
-    git branch | grep 'key' | xargs git branch -D
+    git branch | grep '[key]' | xargs git branch -D
 
 重构
 ---
@@ -128,7 +146,7 @@ GitHub Desktop for Mac
 
     git rm --cached [file]
 
-改变文件名并准备commit
+改变文件名并准备 commit
 
     git mv [file-original] [file-renamed]
 
@@ -146,6 +164,12 @@ GitHub Desktop for Mac
 列出所有项目中忽略的文件
 
     git ls-files --others --ignored --exclude-standard
+
+参考网址
+
+    https://github.com/github/gitignore
+
+    https://www.gitignore.io
 
 暂存
 ---
@@ -194,13 +218,21 @@ GitHub Desktop for Mac
 
 > 擦除错误并更改历史
 
-撤销所有 [commit] 后的的commit，在本地保存更改
+撤销所有 [commit] 后的的 commit ，在本地保存更改
 
     git reset [commit]
 
-放弃所有更改并回到某个特定的commit
+还原本地所有未 commit 的修改
+
+    git checkout .
+
+放弃所有更改并回到某个特定的 commit ，不保留任何历史文件
 
     git reset --hard [commit]
+
+放弃所有更改并回到某个特定的 commit ，保留任何历史文件
+
+    git reset --soft [commit]
 
 同步
 ---
