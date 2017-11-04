@@ -230,7 +230,7 @@ GitHub Desktop
 
     git reset --hard [commit]
 
-放弃所有更改并回到某个特定的 commit ，保留任何历史文件
+放弃所有更改并回到某个特定的 commit ，保留历史文件
 
     git reset --soft [commit]
 
