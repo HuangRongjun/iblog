@@ -36,6 +36,10 @@ GitHub Desktop
 
     git config --global user.email "[email address]"
 
+更新默认编辑器
+
+    git config --global core.editor "vim"
+
 > 创建 SSH 连接
 
 默认全局
@@ -54,9 +58,13 @@ GitHub Desktop
 
 更新远程 url 
 
-    $ git remote set-url [remote] git@github.com:[your repository].git
+    git remote set-url [remote] git@github.com:[your repository].git
 
 > remote 的默认别名是 origin
+
+检查是否连接到 GitHub 
+
+    ssh -T git@github.com
 
 创建
 ---
