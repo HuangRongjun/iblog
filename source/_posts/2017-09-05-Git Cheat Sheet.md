@@ -54,17 +54,36 @@ GitHub Desktop
 
 获取远程连接信息
 
-    git remote -v
+```
+git remote -v
+```
 
 更新远程 url 
 
-    git remote set-url [remote] git@github.com:[your repository].git
+```
+git remote set-url [remote] git@github.com:[your repository].git
+```
 
 > remote 的默认别名是 origin
 
 检查是否连接到 GitHub 
 
     ssh -T git@github.com
+
+增加代理
+
+```
+git config --global http.proxy 'socks5://127.0.0.1:1080'
+git config --global https.proxy 'socks5://127.0.0.1:1080'
+```
+
+根据 .gitignore 更新文件缓存
+
+```
+git rm -r --cached .
+git add .
+git commit -m 'update .gitignore'
+``
 
 创建
 ---
