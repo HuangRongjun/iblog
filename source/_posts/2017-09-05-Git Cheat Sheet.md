@@ -46,7 +46,7 @@ git config --global user.email "[email address]"
 git config --global core.editor "vim"
 ```
 
-创建 SSH 连接
+**创建 SSH 连接**
 
 默认全局
 
@@ -60,7 +60,7 @@ ssh-keygen -t rsa -C "[your github email]"
 ssh-keygen -t rsa -C "[your github email]" -f ~/.ssh/github-rsa
 ```
 
-更新仓库地址为 SSH 连接
+**更新仓库地址为 SSH 连接**
 
 获取远程连接信息
 
