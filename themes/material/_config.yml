@@ -7,7 +7,7 @@ head:
     favicon: "/img/favicon.png"
     high_res_favicon: "/img/favicon.png"
     apple_touch_icon: "/img/favicon.png"
-    keywords: iCrazyMage
+    keywords: IT君
     site_verification:
         google:
         baidu:
@@ -20,7 +20,7 @@ head:
 url:
     rss:
     daily_pic: "#"
-    logo: "https://ilovelan.com"
+    logo: "https://www.itjun.io"
 
 
 # ---------------------------------------------------------------
@@ -245,7 +245,7 @@ sidebar:
 # If you want to use valine,you should get the app_id and app_key form https://leancloud.cn ,more setting please see https://github.com/xCss/Valine
 comment:
     use: disqus
-    shortname: icrazymage
+    shortname: IT君
     changyan_appid:
     changyan_conf:
     changyan_thread_key_type: path

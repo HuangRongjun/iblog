@@ -3,16 +3,16 @@
 ## Source: https://github.com/hexojs/hexo/
 
 # Site
-title: iCrazyMage' Blog
+title: IT君' Blog
 subtitle:
 description:
-author: iCrazyMage
+author: IT君
 language: zh-CN
 timezone:
 
 # URL
 ## If your site is put in a subdirectory, set url as 'http://yoursite.com/child' and root as '/child/'
-url: https://ilovelan.com
+url: https://blog.itjun.io/
 root: /
 permalink: :year/:month/:day/:title/
 permalink_defaults:
