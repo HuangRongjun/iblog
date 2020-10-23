@@ -20,7 +20,7 @@ About Me
 Follow Me
 ---
 
-GitHub：[iCrazyMage](https://github.com/HuangRongjun)
+GitHub：[iCrazyMage](https://github.com/itjun)
 
 网易云：[iCrazyMage](http://music.163.com/#/user/home?id=658124)
 
@@ -29,10 +29,10 @@ About Blog
 
 1、读写分离
 
-> 源文件仓库 [i-blog](https://github.com/HuangRongjun/i-blog)
-> 展示仓库 [HuangRongjun.github.io](https://github.com/HuangRongjun/HuangRongjun.github.io) 
+> 源文件仓库 [i-blog](https://github.com/itjun/i-blog)
+> 展示仓库 [itjun.github.io](https://github.com/itjun/itjun.github.io) 
 
-2、[Travis CI](https://travis-ci.org/itjun/i-blog) 自动构建和发布
+2、[Travis CI](https://travis-ci.com/itjun/i-blog) 自动构建和发布
 3、[阿里云](https://www.aliyun.com) 购买域名
 4、[CloudFare](https://www.cloudflare.com) 域名解析 和 CDN 加速
 

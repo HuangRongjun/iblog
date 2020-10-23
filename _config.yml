@@ -76,5 +76,5 @@ search:
 ## Docs: https://hexo.io/docs/deployment.html
 deploy:
   type: git
-  repo: git@github.com:HuangRongjun/HuangRongjun.github.io.git
+  repo: git@github.com:itjun/itjun.github.io.git
   branch: master

@@ -26,7 +26,7 @@
 [![Hexo](https://img.shields.io/badge/hexo-3.0+-green.svg?style=flat-square)](https://hexo.io)
 [![node.js](https://img.shields.io/badge/node.js-6.0%2B-green.svg?style=flat-square)](https://nodejs.org/)
 
-[![Build Status](https://img.shields.io/travis/viosey/hexo-theme-material.svg?style=flat-square)](https://travis-ci.org/viosey/hexo-theme-material)
+[![Build Status](https://img.shields.io/travis/viosey/hexo-theme-material.svg?style=flat-square)](https://travis-ci.com/viosey/hexo-theme-material)
 [![npm](https://img.shields.io/npm/dt/hexo-material.svg?style=flat-square)](https://www.npmjs.com/package/hexo-material)
 
 ## Demo 演示
