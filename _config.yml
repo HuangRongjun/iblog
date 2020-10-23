@@ -77,4 +77,4 @@ search:
 deploy:
   type: git
   repo: git@github.com:itjun/itjun.github.io.git
-  branch: master
+  branch: main
