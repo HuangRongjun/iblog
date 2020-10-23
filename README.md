@@ -1,5 +1,6 @@
- i-blog
----
-[![Build Status](https://secure.travis-ci.com/itjun/i-blog.png)](https://travis-ci.com/itjun/i-blog)
+ # itjun blog
 
-Hello GitHub
+---
+[![Build Status](https://travis-ci.com/itjun/blog.svg?branch=main)](https://travis-ci.com/itjun/blog)
+
+Hello!
