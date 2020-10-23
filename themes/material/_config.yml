@@ -7,7 +7,7 @@ head:
     favicon: "/img/favicon.png"
     high_res_favicon: "/img/favicon.png"
     apple_touch_icon: "/img/favicon.png"
-    keywords: IT君
+    keywords: itjun
     site_verification:
         google:
         baidu:
@@ -20,7 +20,7 @@ head:
 url:
     rss:
     daily_pic: "#"
-    logo: "https://www.itjun.io"
+    logo: "https://itjun.github.io"
 
 
 # ---------------------------------------------------------------
@@ -164,7 +164,7 @@ toc:
 
 # SNS Menu
 sns:
-    email: l1091462907@163.com
+    email: l1091462907@qq.com
     facebook: 
     twitter: 
     googleplus: 
@@ -192,7 +192,7 @@ sns_share:
 sidebar:
     dropdown:
         Email Me:
-            link: "mailto:l1091462907@163.com"
+            link: "mailto:l1091462907@qq.com"
             icon: email
     homepage:
         use: true
@@ -245,7 +245,7 @@ sidebar:
 # If you want to use valine,you should get the app_id and app_key form https://leancloud.cn ,more setting please see https://github.com/xCss/Valine
 comment:
     use: disqus
-    shortname: IT君
+    shortname: itjun
     changyan_appid:
     changyan_conf:
     changyan_thread_key_type: path
