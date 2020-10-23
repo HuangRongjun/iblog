@@ -12,7 +12,6 @@ script:
 - git submodule update
 - hexo clean
 - hexo g
-- hexo deploy
 after_success:
 - git config --global user.name "黄荣君"
 - git config --global user.email "l1091462907@gmail.com"
