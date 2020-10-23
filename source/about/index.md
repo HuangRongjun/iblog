@@ -33,7 +33,7 @@ About Blog
 
 > 展示仓库 [itjun.github.io](https://github.com/itjun/itjun.github.io) 
 
-2、[Travis CI](https://travis-ci.com/itjun/i-blog) 自动构建和发布
+2、[Travis CI](https://travis-ci.com/itjun/blog) 自动构建和发布
 3、[阿里云](https://www.aliyun.com) 购买域名
 4、[CloudFare](https://www.cloudflare.com) 域名解析 和 CDN 加速
 
