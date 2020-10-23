@@ -12,7 +12,7 @@ timezone:
 
 # URL
 ## If your site is put in a subdirectory, set url as 'http://yoursite.com/child' and root as '/child/'
-url: https://itjun.io/
+url: https://itjun.githun.io/
 root: /
 permalink: :year/:month/:day/:title/
 permalink_defaults:
@@ -77,4 +77,4 @@ search:
 deploy:
   type: git
   repo: git@github.com:itjun/itjun.github.io.git
-  branch: main
+  branch: master

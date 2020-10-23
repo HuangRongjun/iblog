@@ -29,7 +29,8 @@ About Blog
 
 1、读写分离
 
-> 源文件仓库 [i-blog](https://github.com/itjun/i-blog)
+> 源文件仓库 [blog](https://github.com/itjun/blog)
+
 > 展示仓库 [itjun.github.io](https://github.com/itjun/itjun.github.io) 
 
 2、[Travis CI](https://travis-ci.com/itjun/i-blog) 自动构建和发布
