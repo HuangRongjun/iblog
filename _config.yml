@@ -76,5 +76,5 @@ search:
 ## Docs: https://hexo.io/docs/deployment.html
 deploy:
   type: git
-  repo: git@github.com:itjun/itjun.github.io.git
+  repo: https://gh_token@github.com/itjun/itjun.github.io.git
   branch: main
